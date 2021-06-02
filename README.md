@@ -9,3 +9,5 @@ What does the script contain? Blips you can turn on or off! So you can configure
 
 # Status
 ![Victqr's GitHub stats](https://github-readme-stats.vercel.app/api?username=Victqr&show_icons=true&theme=gotham)
+
+<a href="[https://www.patreon.com/SpirGovictor]" target="_blank"> <img src="[https://i.imgur.com/1ukmnjc.png]" alt="Support me on Patreon!"> </a>
