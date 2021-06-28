@@ -110,7 +110,7 @@ AddEventHandler('onClientGameTypeStart', function()
     TriggerEvent('chat:addMessage', {
        color = {0,255,179},
        multiline = true,
-       args = {'[SpirGo-Locatie]', ' started succesfully, check f8',}
+       args = {'[SpirGo-Locatie]', ' Made by !Victqr L.#8585',}
        })
     end)
 print '^5-------------------------------------------------------------------'
