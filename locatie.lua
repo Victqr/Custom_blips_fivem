@@ -1,11 +1,3 @@
-AddEventHandler('onClientGameTypeStart', function()
-    TriggerEvent('chat:addMessage', {
-       color = {0,255,179},
-       multiline = true,
-       args = {'[SpirGo-Locatie]', ' started succesfully, check f8',}
-       })
-    end)
-    
     if (config.enabledAmmo == true) then 
     Citizen.CreateThread(function()   
         for _, info in pairs(config.Ammoshop) do
@@ -109,6 +101,18 @@ AddEventHandler('onClientGameTypeStart', function()
     end
 
 -------------------------------------Alert Server-------------------------------------
+AddEventHandler('onClientGameTypeStart', function()
+    TriggerEvent('chat:addMessage', {
+       color = {0,255,179},
+       multiline = true,
+       args = {'[SpirGo-Locatie]', ' started succesfully, check f8',}
+       })
+    TriggerEvent('chat:addMessage', {
+       color = {0,255,179},
+       multiline = true,
+       args = {'[SpirGo-Locatie]', ' started succesfully, check f8',}
+       })
+    end)
 print '^5-------------------------------------------------------------------'
 print '^5Alert SpirGo Script^7: ^1Locatie^7 Loading...'
 print '^5-------------------------------------------------------------------'
