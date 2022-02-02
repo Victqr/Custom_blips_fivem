@@ -120,7 +120,6 @@ print '^5Alert SpirGo Script^7: ^1Locatie^7 started ^2successfully^7...'
 print '^5-------------------------------------------------------------------'
 
 print '^1This Script is made by Victor developer of SpirGo!'
-print '^1SpirGo: https://discord.gg/XU5VVt3hw2'
-print '^1Website: https://spirgo.nl'
+print '^1SpirGo: https://discord.gg/He5nUhVnXm'
 print '^5-------------------------------------------------------------------'
 -------------------------------------Alert Server-------------------------------------
