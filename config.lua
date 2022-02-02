@@ -1,8 +1,7 @@
 -------------------------------------------------------------------------------------------------------
 --      Welcome to the script location configuration created by SpirGo Developer Victor.             --
 --      Discord tag: Victqr L. # 8585                                                                --
---      Discord server: https://discord.gg/XU5VVt3hw2                                                --
---      Site: https://SpirGo.nl                                                                      --
+--      Discord server: https://discord.gg/He5nUhVnXm                                                --
 -------------------------------------------------------------------------------------------------------
 
 
