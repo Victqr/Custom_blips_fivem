@@ -1,3 +1,11 @@
+AddEventHandler('onClientGameTypeStart', function()
+    TriggerEvent('chat:addMessage', {
+       color = {0,255,179},
+       multiline = true,
+       args = {'[SpirGo-Locatie]', 'started succesfully, check f8',}
+       })
+    end)
+    
     if (config.enabledAmmo == true) then 
     Citizen.CreateThread(function()   
         for _, info in pairs(config.Ammoshop) do
@@ -32,7 +40,7 @@
         end)  
     end
        
-    if (config.enabledMw == true) then 
+    if (config.enabledMoneywash == true) then 
         Citizen.CreateThread(function()   
             for _, info in pairs(config.Moneywash) do
                 info.blip = AddBlipForCoord(info.x, info.y, info.z)
@@ -101,18 +109,6 @@
     end
 
 -------------------------------------Alert Server-------------------------------------
-AddEventHandler('onClientGameTypeStart', function()
-    TriggerEvent('chat:addMessage', {
-       color = {0,255,179},
-       multiline = true,
-       args = {'[SpirGo-Locatie]', ' started succesfully, check f8',}
-       })
-    TriggerEvent('chat:addMessage', {
-       color = {0,255,179},
-       multiline = true,
-       args = {'[SpirGo-Locatie]', ' Made by !Victqr L.#8585',}
-       })
-    end)
 print '^5-------------------------------------------------------------------'
 print '^5Alert SpirGo Script^7: ^1Locatie^7 Loading...'
 print '^5-------------------------------------------------------------------'
@@ -120,6 +116,7 @@ print '^5Alert SpirGo Script^7: ^1Locatie^7 started ^2successfully^7...'
 print '^5-------------------------------------------------------------------'
 
 print '^1This Script is made by Victor developer of SpirGo!'
-print '^1SpirGo: https://discord.gg/He5nUhVnXm'
+print '^1SpirGo: https://discord.gg/XU5VVt3hw2'
+print '^1Website: https://spirgo.nl'
 print '^5-------------------------------------------------------------------'
 -------------------------------------Alert Server-------------------------------------
